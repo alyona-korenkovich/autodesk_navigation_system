@@ -1,0 +1,39 @@
+.menu {
+  background-color: var(--bam-green);
+  padding: 0 0.75rem 0;
+  width: 12.5rem;
+}
+
+.logo {
+  width: 8.5rem;
+  margin: 2rem 0 4.5rem;
+}
+
+.menuItem {
+  text-decoration: none;
+  width: 11rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+  margin-bottom: 1.5rem;
+
+  img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  &:hover {
+    background-color: var(--bam-hover);
+    border-radius: 1.5rem;
+    color: var(--bam-green);
+  }
+}
+
+.menuItemActive {
+  background-color: var(--white-color);
+  border-radius: 1.5rem;
+  color: var(--bam-green);
+}

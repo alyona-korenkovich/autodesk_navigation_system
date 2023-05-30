@@ -1,0 +1,14 @@
+@import './fonts.css';
+@import './colors.css';
+@import '~normalize.css';
+@import './breakpoints.css';
+
+:global(html) {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    color: var(--font-color);
+}
+
+:global(*) {
+    box-sizing: border-box;
+}

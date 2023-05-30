@@ -1,0 +1,6 @@
+:root {
+    --sm-breakpoint: 600px;
+    --xl-breakpoint: 1440px;
+    --s--breakpoint: 1024px;
+    --xxl-breakpoint: 1920px;
+}

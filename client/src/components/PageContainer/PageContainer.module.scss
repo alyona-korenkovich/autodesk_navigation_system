@@ -1,0 +1,28 @@
+html, body, #root, .container {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  background-color: var(--light-grey);
+}
+
+.main {
+  margin: 2rem 3.25rem 0;
+}
+
+.content {
+  background-color: var(--white-color);
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  background-color: var(--white-color);
+  height: 6.25rem;
+  border-radius: 1.5rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}

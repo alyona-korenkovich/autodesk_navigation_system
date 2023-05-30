@@ -1,0 +1,26 @@
+:root {
+    --main-font-family: 'Montserrat', arial, sans-serif;
+    --reguraly-font-family: 'MontserratRegular', arial, sans-serif;
+    --medium-font-family: 'MontserratMedium', arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    src: url("../assets/fonts/Montserrat-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url("../assets/fonts/Montserrat-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'MontserratMedium';
+    src: url("../assets/fonts/Montserrat-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url("../assets/fonts/PTSans-Regular.ttf") format('truetype');
+}

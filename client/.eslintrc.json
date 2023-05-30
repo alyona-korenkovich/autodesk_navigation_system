@@ -1,0 +1,64 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ],
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "testing-library",
+    "prettier",
+    "import"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  },
+  "overrides": [
+    {
+      "files": "*.{[j|t]s,tsx}",
+      "rules": {
+        "@typescript-eslint/no-empty-function": "off",
+        "import/prefer-default-export": "off",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+        "class-methods-use-this": "off",
+        "react/require-default-props": "off",
+        "sort-imports": [
+          "error",
+          {
+            "memberSyntaxSortOrder": ["multiple", "single", "all", "none"],
+            "allowSeparatedGroups": true,
+            "ignoreMemberSort": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.buttonContainer {
+  margin: 1rem 0;
+  width: 12.5rem;
+}
+
+.buttonInit {
+  margin: 1rem 0;
+}
+
+.projectName {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.formContainer {
+  width: 31.25rem;
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white-color);
+  border-radius: 14px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+.form {
+  width: 80%;
+  padding: 2rem;
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.successMessage {
+  color: var(--ok-color);
+}

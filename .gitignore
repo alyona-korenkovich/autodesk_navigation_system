@@ -1,0 +1,8 @@
+.env
+.DS_Store
+
+.idea/
+/node_modules
+server/node_modules
+server/dist
+docker-compose.env

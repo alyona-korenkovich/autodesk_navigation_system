@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    //"module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "baseUrl": "./src",
+  "paths": {
+    "Components/*": ["components/*"],
+    "Views/*": ["views/*"],
+    "Assets/*": ["assets/*"],
+    "Consts/*": ["consts/*"],
+    "Utils/*": ["utils/*"],
+    "Api/*": ["api/*"],
+    "Hooks/*": ["hooks/*"],
+    "Store/*": ["store/*"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
